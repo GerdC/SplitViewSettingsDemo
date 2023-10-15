@@ -1,5 +1,5 @@
 //
-//  SettingsSpitView.swift
+//  SettingsSplitView.swift
 //  SplitViewSettingsDemo
 //
 //  Created by Gerd Castan on 12.10.23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SettingsSpitView: View {
+struct SettingsSplitView: View {
 
     /// show all columns, side by side
     @State private var visibility: NavigationSplitViewVisibility = .all
@@ -62,5 +62,5 @@ struct SettingsDetailView: View {
 
 
 #Preview {
-    SettingsSpitView()
+    SettingsSplitView()
 }

@@ -19,7 +19,7 @@
 		438830642AD71D70009D99AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438830632AD71D70009D99AD /* Preview Assets.xcassets */; };
 		4388306D2AD71E0B009D99AD /* SettingsSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */; };
 		438830722AD728B4009D99AD /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438830712AD728B4009D99AD /* UnitType.swift */; };
-		43A934632AD8571700A41437 /* SettingsSpitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934622AD8571700A41437 /* SettingsSpitView.swift */; };
+		43A934632AD8571700A41437 /* SettingsSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934622AD8571700A41437 /* SettingsSplitView.swift */; };
 		43A934652AD85FB900A41437 /* EventPreferencesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */; };
 		43A934672AD862D000A41437 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934662AD862D000A41437 /* Mode.swift */; };
 		43D649502ADA9DC4004510E1 /* SplitViewSettingsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */; };
@@ -38,7 +38,7 @@
 		4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSidebarView.swift; sourceTree = "<group>"; };
 		4388306E2AD71E36009D99AD /* SettingsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormView.swift; sourceTree = "<group>"; };
 		438830712AD728B4009D99AD /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
-		43A934622AD8571700A41437 /* SettingsSpitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSpitView.swift; sourceTree = "<group>"; };
+		43A934622AD8571700A41437 /* SettingsSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSplitView.swift; sourceTree = "<group>"; };
 		43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPreferencesSettingsView.swift; sourceTree = "<group>"; };
 		43A934662AD862D000A41437 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */,
-				43A934622AD8571700A41437 /* SettingsSpitView.swift */,
+				43A934622AD8571700A41437 /* SettingsSplitView.swift */,
 				4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */,
 				43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */,
 				438830712AD728B4009D99AD /* UnitType.swift */,
@@ -225,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438830722AD728B4009D99AD /* UnitType.swift in Sources */,
-				43A934632AD8571700A41437 /* SettingsSpitView.swift in Sources */,
+				43A934632AD8571700A41437 /* SettingsSplitView.swift in Sources */,
 				43A934652AD85FB900A41437 /* EventPreferencesSettingsView.swift in Sources */,
 				4388305D2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift in Sources */,
 				43A934672AD862D000A41437 /* Mode.swift in Sources */,

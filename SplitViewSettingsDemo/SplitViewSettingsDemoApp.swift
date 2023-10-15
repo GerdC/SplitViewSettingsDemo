@@ -11,7 +11,7 @@ import SwiftUI
 struct SplitViewSettingsDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            SettingsSpitView()
+            SettingsSplitView()
         }
     }
 }
