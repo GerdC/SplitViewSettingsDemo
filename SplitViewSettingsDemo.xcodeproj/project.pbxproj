@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		43663E062ADAC5CA008888A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43663E072ADBEAFF008888A3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		438590092ADA8FB000320B4A /* SettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListView.swift; sourceTree = "<group>"; };
 		4385901B2ADA96CB00320B4A /* SplitViewSettingsStandalone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewSettingsStandalone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4385901E2ADA9AD100320B4A /* SimpleSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSplitView.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		438830502AD71D6F009D99AD = {
 			isa = PBXGroup;
 			children = (
+				43663E072ADBEAFF008888A3 /* LICENSE */,
 				4388305B2AD71D6F009D99AD /* SplitViewSettingsDemo */,
 				4388305A2AD71D6F009D99AD /* Products */,
 			);
