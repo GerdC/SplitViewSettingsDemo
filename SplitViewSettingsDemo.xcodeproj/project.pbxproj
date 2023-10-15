@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		438590162ADA96CB00320B4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438830632AD71D70009D99AD /* Preview Assets.xcassets */; };
+		438590172ADA96CB00320B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438830602AD71D70009D99AD /* Assets.xcassets */; };
+		4385901C2ADA96E000320B4A /* SettingsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388306E2AD71E36009D99AD /* SettingsFormView.swift */; };
+		4385901D2ADA96E400320B4A /* SettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438590092ADA8FB000320B4A /* SettingsListView.swift */; };
+		438590202ADA9ADF00320B4A /* SimpleSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385901E2ADA9AD100320B4A /* SimpleSplitView.swift */; };
+		438590212ADA9B6600320B4A /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438830712AD728B4009D99AD /* UnitType.swift */; };
+		438590222ADA9BA200320B4A /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934662AD862D000A41437 /* Mode.swift */; };
 		4388305D2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */; };
-		4388305F2AD71D6F009D99AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388305E2AD71D6F009D99AD /* ContentView.swift */; };
 		438830612AD71D70009D99AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438830602AD71D70009D99AD /* Assets.xcassets */; };
 		438830642AD71D70009D99AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438830632AD71D70009D99AD /* Preview Assets.xcassets */; };
+		4388306D2AD71E0B009D99AD /* SettingsSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */; };
+		438830722AD728B4009D99AD /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438830712AD728B4009D99AD /* UnitType.swift */; };
+		43A934632AD8571700A41437 /* SettingsSpitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934622AD8571700A41437 /* SettingsSpitView.swift */; };
+		43A934652AD85FB900A41437 /* EventPreferencesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */; };
+		43A934672AD862D000A41437 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934662AD862D000A41437 /* Mode.swift */; };
+		43D6494F2ADA9D98004510E1 /* ContentView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6494D2ADA9D95004510E1 /* ContentView_.swift */; };
+		43D649502ADA9DC4004510E1 /* SplitViewSettingsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43663E062ADAC5CA008888A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		438590092ADA8FB000320B4A /* SettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListView.swift; sourceTree = "<group>"; };
+		4385901B2ADA96CB00320B4A /* SplitViewSettingsStandalone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewSettingsStandalone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4385901E2ADA9AD100320B4A /* SimpleSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSplitView.swift; sourceTree = "<group>"; };
 		438830592AD71D6F009D99AD /* SplitViewSettingsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewSettingsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewSettingsDemoApp.swift; sourceTree = "<group>"; };
-		4388305E2AD71D6F009D99AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		438830602AD71D70009D99AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438830632AD71D70009D99AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSidebarView.swift; sourceTree = "<group>"; };
+		4388306E2AD71E36009D99AD /* SettingsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormView.swift; sourceTree = "<group>"; };
+		438830712AD728B4009D99AD /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
+		43A934622AD8571700A41437 /* SettingsSpitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSpitView.swift; sourceTree = "<group>"; };
+		43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPreferencesSettingsView.swift; sourceTree = "<group>"; };
+		43A934662AD862D000A41437 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		43D6494D2ADA9D95004510E1 /* ContentView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		438590142ADA96CB00320B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		438830562AD71D6F009D99AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		438590082ADA8F8600320B4A /* Early standalone examples */ = {
+			isa = PBXGroup;
+			children = (
+				43D6494D2ADA9D95004510E1 /* ContentView_.swift */,
+				4385901E2ADA9AD100320B4A /* SimpleSplitView.swift */,
+				4388306E2AD71E36009D99AD /* SettingsFormView.swift */,
+				438590092ADA8FB000320B4A /* SettingsListView.swift */,
+			);
+			path = "Early standalone examples";
+			sourceTree = "<group>";
+		};
 		438830502AD71D6F009D99AD = {
 			isa = PBXGroup;
 			children = (
@@ -44,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				438830592AD71D6F009D99AD /* SplitViewSettingsDemo.app */,
+				4385901B2ADA96CB00320B4A /* SplitViewSettingsStandalone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */,
-				4388305E2AD71D6F009D99AD /* ContentView.swift */,
+				43A934622AD8571700A41437 /* SettingsSpitView.swift */,
+				4388306C2AD71E0B009D99AD /* SettingsSidebarView.swift */,
+				43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */,
+				438830712AD728B4009D99AD /* UnitType.swift */,
+				43A934662AD862D000A41437 /* Mode.swift */,
+				438590082ADA8F8600320B4A /* Early standalone examples */,
 				438830602AD71D70009D99AD /* Assets.xcassets */,
 				438830622AD71D70009D99AD /* Preview Content */,
+				43663E062ADAC5CA008888A3 /* README.md */,
 			);
 			path = SplitViewSettingsDemo;
 			sourceTree = "<group>";
@@ -70,6 +118,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4385900B2ADA96CB00320B4A /* SplitViewSettingsStandalone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438590182ADA96CB00320B4A /* Build configuration list for PBXNativeTarget "SplitViewSettingsStandalone" */;
+			buildPhases = (
+				4385900C2ADA96CB00320B4A /* Sources */,
+				438590142ADA96CB00320B4A /* Frameworks */,
+				438590152ADA96CB00320B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitViewSettingsStandalone;
+			productName = SplitViewSettingsDemo;
+			productReference = 4385901B2ADA96CB00320B4A /* SplitViewSettingsStandalone.app */;
+			productType = "com.apple.product-type.application";
+		};
 		438830582AD71D6F009D99AD /* SplitViewSettingsDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438830672AD71D70009D99AD /* Build configuration list for PBXNativeTarget "SplitViewSettingsDemo" */;
@@ -116,11 +181,21 @@
 			projectRoot = "";
 			targets = (
 				438830582AD71D6F009D99AD /* SplitViewSettingsDemo */,
+				4385900B2ADA96CB00320B4A /* SplitViewSettingsStandalone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		438590152ADA96CB00320B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438590162ADA96CB00320B4A /* Preview Assets.xcassets in Resources */,
+				438590172ADA96CB00320B4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		438830572AD71D6F009D99AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +208,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4385900C2ADA96CB00320B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D6494F2ADA9D98004510E1 /* ContentView_.swift in Sources */,
+				4385901C2ADA96E000320B4A /* SettingsFormView.swift in Sources */,
+				43D649502ADA9DC4004510E1 /* SplitViewSettingsDemoApp.swift in Sources */,
+				438590222ADA9BA200320B4A /* Mode.swift in Sources */,
+				438590212ADA9B6600320B4A /* UnitType.swift in Sources */,
+				4385901D2ADA96E400320B4A /* SettingsListView.swift in Sources */,
+				438590202ADA9ADF00320B4A /* SimpleSplitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		438830552AD71D6F009D99AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4388305F2AD71D6F009D99AD /* ContentView.swift in Sources */,
+				438830722AD728B4009D99AD /* UnitType.swift in Sources */,
+				43A934632AD8571700A41437 /* SettingsSpitView.swift in Sources */,
+				43A934652AD85FB900A41437 /* EventPreferencesSettingsView.swift in Sources */,
 				4388305D2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift in Sources */,
+				43A934672AD862D000A41437 /* Mode.swift in Sources */,
+				4388306D2AD71E0B009D99AD /* SettingsSidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		438590192ADA96CB00320B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitViewSettingsDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = UWEH5FZ6DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.gerdcastan.mapTest.SplitViewSettingsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4385901A2ADA96CB00320B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitViewSettingsDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = UWEH5FZ6DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.gerdcastan.mapTest.SplitViewSettingsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		438830652AD71D70009D99AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +480,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		438590182ADA96CB00320B4A /* Build configuration list for PBXNativeTarget "SplitViewSettingsStandalone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438590192ADA96CB00320B4A /* Debug */,
+				4385901A2ADA96CB00320B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		438830542AD71D6F009D99AD /* Build configuration list for PBXProject "SplitViewSettingsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
