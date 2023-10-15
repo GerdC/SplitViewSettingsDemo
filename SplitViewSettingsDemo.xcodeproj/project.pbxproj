@@ -78,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				43663E072ADBEAFF008888A3 /* LICENSE */,
+				43663E062ADAC5CA008888A3 /* README.md */,
 				4388305B2AD71D6F009D99AD /* SplitViewSettingsDemo */,
 				4388305A2AD71D6F009D99AD /* Products */,
 			);
@@ -104,7 +105,6 @@
 				438590082ADA8F8600320B4A /* Early standalone examples */,
 				438830602AD71D70009D99AD /* Assets.xcassets */,
 				438830622AD71D70009D99AD /* Preview Content */,
-				43663E062ADAC5CA008888A3 /* README.md */,
 			);
 			path = SplitViewSettingsDemo;
 			sourceTree = "<group>";
