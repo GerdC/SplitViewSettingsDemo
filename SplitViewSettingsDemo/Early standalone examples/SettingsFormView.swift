@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// this is an early version of the file for the article
 struct SettingsFormView_: View {
     @State private var selectedUnit: UnitType = .automatic
     @State private var notification: Bool = true

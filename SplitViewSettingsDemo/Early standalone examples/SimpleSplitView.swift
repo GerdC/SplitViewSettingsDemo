@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct SettingsSpitView_: View {
+/// this is an early version of the file for the article
+struct SettingsSpitView: View {
     /// show all columns, side by side
     @State private var visibility: NavigationSplitViewVisibility = .all
 
@@ -23,5 +24,5 @@ struct SettingsSpitView_: View {
 }
 
 #Preview {
-    return SettingsSpitView_()
+    return SettingsSpitView()
 }

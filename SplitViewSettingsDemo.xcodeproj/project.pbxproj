@@ -22,7 +22,6 @@
 		43A934632AD8571700A41437 /* SettingsSpitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934622AD8571700A41437 /* SettingsSpitView.swift */; };
 		43A934652AD85FB900A41437 /* EventPreferencesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */; };
 		43A934672AD862D000A41437 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A934662AD862D000A41437 /* Mode.swift */; };
-		43D6494F2ADA9D98004510E1 /* ContentView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6494D2ADA9D95004510E1 /* ContentView_.swift */; };
 		43D649502ADA9DC4004510E1 /* SplitViewSettingsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4388305C2AD71D6F009D99AD /* SplitViewSettingsDemoApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		43A934622AD8571700A41437 /* SettingsSpitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSpitView.swift; sourceTree = "<group>"; };
 		43A934642AD85FB900A41437 /* EventPreferencesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPreferencesSettingsView.swift; sourceTree = "<group>"; };
 		43A934662AD862D000A41437 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
-		43D6494D2ADA9D95004510E1 /* ContentView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 		438590082ADA8F8600320B4A /* Early standalone examples */ = {
 			isa = PBXGroup;
 			children = (
-				43D6494D2ADA9D95004510E1 /* ContentView_.swift */,
 				4385901E2ADA9AD100320B4A /* SimpleSplitView.swift */,
 				4388306E2AD71E36009D99AD /* SettingsFormView.swift */,
 				438590092ADA8FB000320B4A /* SettingsListView.swift */,
@@ -214,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D6494F2ADA9D98004510E1 /* ContentView_.swift in Sources */,
 				4385901C2ADA96E000320B4A /* SettingsFormView.swift in Sources */,
 				43D649502ADA9DC4004510E1 /* SplitViewSettingsDemoApp.swift in Sources */,
 				438590222ADA9BA200320B4A /* Mode.swift in Sources */,
