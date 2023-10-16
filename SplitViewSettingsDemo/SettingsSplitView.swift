@@ -45,6 +45,9 @@ struct SettingsDetailView: View {
                         }
                     }
                 }
+                // if selectedDetail is nil, the user hasn't selected anything
+                // in the sidebar, so nothing should be shown.
+                // You might add something like "Please select---"
             }
             .onChange(of: selectedDetail) { newSelectedDetail in
                 presentedPath = NavigationPath()
