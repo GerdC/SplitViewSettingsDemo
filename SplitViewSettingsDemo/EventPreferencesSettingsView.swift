@@ -54,6 +54,14 @@ struct EventPreferencesSettingsView: View {
                     Text("Manage Favorites")
                 }
             }
+            // If you want, you can keep .navigationDestination near the NavigationLink that sets the value
+            .navigationDestination(for: EventDetailTypes.self) { eventDetailType in
+                switch eventDetailType {
+                case .favoritesManagement:
+                    EventFavoritesManagementView()
+                }
+            }
+
 
         }
         .navigationTitle("Event Preferences")

@@ -52,12 +52,6 @@ struct SettingsDetailView: View {
             .onChange(of: selectedDetail) { newSelectedDetail in
                 presentedPath = NavigationPath()
             }
-            .navigationDestination(for: EventDetailTypes.self) { eventDetailType in
-                switch eventDetailType {
-                case .favoritesManagement:
-                    EventFavoritesManagementView()
-                }
-            }
         }
         .navigationBarTitleDisplayMode(.large)
     }
